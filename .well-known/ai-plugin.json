@@ -10,10 +10,10 @@
   },
   "api": {
     "type": "openapi",
-    "url": "http://127.0.0.1:8000/.well-known/openapi.yaml",
+    "url": "https://orca-app-6vgyp.ondigitalocean.app/.well-known/openapi.yaml",
     "has_user_authentication": false
   },
-  "logo_url": "http://127.0.0.1:8000/.well-known/logo.png",
+  "logo_url": "https://orca-app-6vgyp.ondigitalocean.app/.well-known/logo.png",
   "contact_email": "denis@mitambo.com", 
   "legal_info_url": "https://mitambo.com/legal-info"
 }

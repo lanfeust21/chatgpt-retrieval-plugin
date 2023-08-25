@@ -4,7 +4,7 @@ info:
   description: Plugin for searching through the documentation of the latest version of svelte js 4.+ and sveltekit 1.2+
   version: 1.0.0
   servers:
-    - url: http://localhost:8080
+    - url: https://orca-app-6vgyp.ondigitalocean.app
 paths:
   /query:
     post:
