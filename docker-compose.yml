@@ -1,0 +1,17 @@
+services:
+  retrieval-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: openai/chatgpt-retrieval-plugin
+    ports:
+      - "8080:8080"
+    environment:
+      DATASTORE: "pinecone"
+      BEARER_TOKEN: "${BEARER_TOKEN}"
+      OPENAI_API_KEY: "${OPENAI_API_KEY}"
+      PINECONE_API_KEY: "${PINECONE_API_KEY}"
+      PINECONE_ENVIRONMENT: "${PINECONE_ENVIRONMENT}"
+      PINECONE_INDEX: "${PINECONE_INDEX}"
+      PINECONE_URL: "${PINECONE_URL}"
+      PORT: 8080
