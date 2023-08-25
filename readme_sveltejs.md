@@ -34,3 +34,8 @@ export BEARER_TOKEN=your_token_value
 
 
 cat .env
+poetry run start
+
+# was not recognized as plugin in the interface
+deploy on digitalocean
+https://orca-app-6vgyp.ondigitalocean.app/
