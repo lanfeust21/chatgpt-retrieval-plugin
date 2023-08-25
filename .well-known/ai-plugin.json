@@ -1,8 +1,8 @@
 {
   "schema_version": "v1",
-  "name_for_model": "retrieval",
-  "name_for_human": "Svelte Js 4.+ /Sveltekit 1.2+ Documentation Plugin",
-  "description_for_model": "Plugin for searching through the documentation of the latest version of svelte js 4.+ and sveltekit 1.2+",
+  "name_for_model": "SvelteJs/Sveltekit Framework",
+  "name_for_human": "SvelteJs/Sveltekit Documentation Plugin",
+  "description_for_model": "Plugin for searching documentatation of svelte js 4.+ and sveltekit 1.2+",
   "description_for_human": "Search through your Svelte JS 4 and sveltekit 1.2 (august 2023 version)",
   "auth": {
     "type": "user_http",
